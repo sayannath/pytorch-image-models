@@ -43,11 +43,11 @@ def _cfg(url='', **kwargs):
 
 default_cfgs = {
     'mobilevit_xxs': _cfg(
-        url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-mvit-weights/mobilevit_xxs-ad385b40.pth'),
+        url='https://docs-assets.developer.apple.com/ml-research/models/cvnets/classification/mobilevit_xxs.pt'),
     'mobilevit_xs': _cfg(
-        url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-mvit-weights/mobilevit_xs-8fbd6366.pth'),
+        url='https://docs-assets.developer.apple.com/ml-research/models/cvnets/classification/mobilevit_xs.pt'),
     'mobilevit_s': _cfg(
-        url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-mvit-weights/mobilevit_s-38a5a959.pth'),
+        url='https://docs-assets.developer.apple.com/ml-research/models/cvnets/classification/mobilevit_s.pt'),
     'semobilevit_s': _cfg(),
 
     'mobilevitv2_050': _cfg(
